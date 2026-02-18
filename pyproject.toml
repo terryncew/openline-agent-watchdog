@@ -12,7 +12,8 @@ license = {text = "MIT"}
 authors = [
   {name = "Terrynce White"}
 ]
-dependencies = []
+dependencies = ["numpy>=1.21"]
+
 
 [tool.setuptools]
 packages = ["agent_watchdog"]
