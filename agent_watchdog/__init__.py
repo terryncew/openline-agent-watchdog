@@ -1,4 +1,4 @@
-from .core import AgentWatchdog, WatchdogStatus
+from .core import AgentWatchdog, Attempt, ProgressEvidence, WatchdogStatus
 
-__all__ = ["AgentWatchdog", "WatchdogStatus"]
-__version__ = "0.2.0"
+__all__ = ["AgentWatchdog", "Attempt", "ProgressEvidence", "WatchdogStatus"]
+__version__ = "0.3.0"
